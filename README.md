@@ -2,8 +2,6 @@
 
 This repository includes Jupyter notebooks that demonstrate a workflow for version controlling Jupyter notebooks.
 
-Remember, that you need follow the provided link to create your own private copy of this lab's repository on GitHub.com.   See the [help on the course website](https://psuastro528.github.io/lessons/how-to-use-aci/) for instructions on cloning, commiting, pushing and submiting your work.
-
 ## Using Jupyter notebooks in educational setting
 - Browser-based notebooks provide an interactive development environment
 - Notebooks are interactive documents that integrate narrative text, equations, images, live code, live output and/or visualizations.
@@ -31,8 +29,12 @@ Comparison of two versions of a Jupyter notebook:
 - Important differences hard to isolate
 - Interferes with code review, feedback and discussion.
 
+![](https://psuastro528.github.io/images/github_pr_ipynb.png | width=600)
+
 ## One Solution
 ### Key idea: Version control and compare Markdown versions of notebooks.
+
+![](https://psuastro528.github.io/images/github_pr_jmd.png | width=600)
 
 ## Room for Further Improvements
 - Automate generation of clean assignment from solutions (create grammar, writer script)
