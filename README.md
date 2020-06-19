@@ -29,12 +29,12 @@ Comparison of two versions of a Jupyter notebook:
 - Important differences hard to isolate
 - Interferes with code review, feedback and discussion.
 
-![](https://psuastro528.github.io/images/github_pr_ipynb.png | width=600)
+![Comparing Jupyter notebooks](https://psuastro528.github.io/images/github_pr_ipynb.png)
 
 ## One Solution
 ### Key idea: Version control and compare Markdown versions of notebooks.
 
-![](https://psuastro528.github.io/images/github_pr_jmd.png | width=600)
+![Comparing Markdown](https://psuastro528.github.io/images/github_pr_jmd.png)
 
 ## Room for Further Improvements
 - Automate generation of clean assignment from solutions (create grammar, writer script)
