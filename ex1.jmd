@@ -42,8 +42,8 @@ plot_parabola(a,b,c)
 
 ```julia
 # TODO: Replace with your responce to question 1.
-q1_root1 = 0
-q1_root2 = 0
+q1_root1 = 1
+q1_root2 = 2;
 ```
 
 We can rewrite $f(x)$ as $$f(x) = a(x-h)^2 + k,$$
@@ -54,8 +54,8 @@ where $h = \frac{-b}{2a}$ is the value of $x$ that minimizes $f(x)$ and $k = ah^
 ```julia
 # TODO: Update code below with your responce to question 2.
 function vertex(a,b,c) 
-    h = 0
-    k = 0
+    h = -0.5 * b/a
+    k = c + b*h + a*h^2
     return (x=h,y=k)
 end
 ```
