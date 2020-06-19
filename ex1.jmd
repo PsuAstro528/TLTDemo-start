@@ -43,7 +43,7 @@ plot_parabola(a,b,c)
 ```julia
 # TODO: Replace with your responce to question 1.
 q1_root1 = 1
-q1_root2 = 2;
+q1_root2 = 3;
 ```
 
 We can rewrite $f(x)$ as $$f(x) = a(x-h)^2 + k,$$
