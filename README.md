@@ -1,6 +1,8 @@
 # TLT Demo Lab 
 
 This repository includes Jupyter notebooks that demonstrate a workflow for version controlling Jupyter notebooks.
+There are related [slides from a talk at Teaching & Learning with Technology 2020](https://psuastro528.github.io/tools_used/tlt2020/).
+
 
 ## Using Jupyter notebooks in educational setting
 - Browser-based notebooks provide an interactive development environment
@@ -43,7 +45,6 @@ Comparison of two versions of a Jupyter notebook:
 - Consider new tools/commercial services emerging
    - [NBDime](https://github.com/jupyter/nbdime)
    - [NBReview](https://www.reviewnb.com/)
-
 
 ¹ = Many feel Jupyter notebooks are inferior to traditional IDEs for traditional software development.
 
