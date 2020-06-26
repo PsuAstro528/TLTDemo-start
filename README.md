@@ -149,8 +149,8 @@ git commit -m "cleaned ex"
 git push
 ```
 
-### Create Starer Repository for Students
-Create starter repository on GitHub.com from development repository
+### Create Clean Starter Repository for Students
+Create a clean starter repository on GitHub.com from the development repository (so students don't see all commits you've made while creating the exercise).
 
    - Create an empty public lab named labN-start at GitHub as part of the organization for the class.
       + Go to https://github.com/CLASSORG, click New
@@ -232,7 +232,7 @@ git remote add upstream git@github.com:CLASSORG/example.git
 <a id="run-tests"></a>
 ### Test your code
 
-- Make sure you've save all your changes (including adding any new files you created)
+- Make sure you've saved all your changes (including adding any new files you created)
 - It's best to check that your code passes the tests for each exercise as you go.  In a separate test notebook like [Self-check.ipynb](https://github.com/PsuAstro528/TLTDemo-start/blob/main/Self-check.ipynb):
 
 ```julia
@@ -263,7 +263,7 @@ git push                                        # Uploads your progress to githu
 <a id="submit-pr"></a>
 ### Submit your work via Github pull request
 
-- Make sure you've committed all your changes
+- Make sure you've saved, committed and pushed all your changes.
 - Check that your code passes all the tests (or as many as practical in reasonable amount of your time)
 - Navigate to your github repository for the assignment
 - Click _New Pull Request_ button (second button from left, below the orange bar)
@@ -280,13 +280,14 @@ git push                                        # Uploads your progress to githu
 - Click _Pull Requests_, click the name of your pull request.
 - In the conversations tab (default), you and the instructor can discuss the pull request using the text box at the bottom of the page.
 - In the "Files changed" tab, the instructor can provide comments on specific lines of your submission.
-- You can view the comments, reply, close the pull request, make more changes, create a new pull request, etc.
+- You can view the comments, reply, close the pull request, make more changes, , etc.
 
 
 
 
 
 ## Room for Further Improvements
+This seemed to work well for a small upper-level class.  However, for a larger or general education-level class, the process might need to be stream lined.  Possible improvements include:
 - Automate generation of clean assignment from solutions (create grammar, writer script)
 - Reduce command-line operations for students
    - Automate process of generating markdown version via git hooks
