@@ -201,7 +201,7 @@ Go to https://classroom.github.com/classrooms
    -  Copy Invitation Link and send it to students in a Canvas announcement
 
 
-## Step-by-step Instruction to Begin Lab Assignments (Students)
+## Step-by-step Instruction to Begin Lab Assignments (for Students)
 
 <a id="clone-repo"></a>
 ### Clone your github repository to begin a new assignment
@@ -283,6 +283,36 @@ git push                                        # Uploads your progress to githu
 - You can view the comments, reply, close the pull request, make more changes, , etc.
 
 
+## Workflow for reviewing lab assignments (for Instructor)
+
+- Go to [GitHub Classroom](https://classroom.github.com/classrooms)
+   - Click class
+   - Click Assignment
+
+- To review a students work:
+   - Click "View repository" next to student's github id
+   - Look if "Pull requests" has a number &gt;=1 after it.
+   - If so:
+       + Click "Pull requests", click pull request name
+       + Click "Checks" and see that Travis returns "Success"
+       + Click "Files changed"
+       + Click "File filter...", select \*.jmd (or click "Jump to...", select ex\*.jmd) (or replace jmd with whatever file extension you're using)
+       + Review differences
+       + Click the blue "+", enter comments, "Add single comment".
+   - Else:
+       + click "New pull request"
+       + Select "base: original &lt;- compare:main"
+       + Click "N changed files"
+       + Click each \*.jmd file
+       + Review differences
+       + If want to leave comments, then go ahead and make pull request
+
+- To review progress of many students at once:
+   - Go to [Travis-CI.com](https://travis-ci.com/PsuAstro528)
+   - To investigate any students in red with last build # &gt;1:
+       + Click their repo name
+       + Scroll down to the bottom to see which tests failed and why
+</pre>
 
 
 
